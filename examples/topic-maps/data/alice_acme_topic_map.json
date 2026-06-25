@@ -1,0 +1,58 @@
+{
+  "associations": [
+    {
+      "id": "assoc-1",
+      "roles": {
+        "employee": "alice-topic",
+        "employer": "acme-topic-a",
+        "role": "ceo-topic"
+      },
+      "type": "employment"
+    }
+  ],
+  "occurrences": [
+    {
+      "topic_id": "alice-topic",
+      "type": "source",
+      "value": "Acme 2020 Annual Report"
+    }
+  ],
+  "topics": [
+    {
+      "id": "alice-topic",
+      "names": [
+        "Alice"
+      ],
+      "subject_identifiers": [
+        "http://example.org/person/alice"
+      ]
+    },
+    {
+      "id": "acme-topic-a",
+      "names": [
+        "Acme Corp"
+      ],
+      "subject_identifiers": [
+        "http://example.org/company/acme"
+      ]
+    },
+    {
+      "id": "acme-topic-b",
+      "names": [
+        "Acme Corporation"
+      ],
+      "subject_identifiers": [
+        "http://example.org/company/acme"
+      ]
+    },
+    {
+      "id": "ceo-topic",
+      "names": [
+        "CEO"
+      ],
+      "subject_identifiers": [
+        "http://example.org/role/ceo"
+      ]
+    }
+  ]
+}

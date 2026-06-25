@@ -1,0 +1,7 @@
+{
+  "after_flattening": [],
+  "before": [
+    "appointed_by",
+    "location"
+  ]
+}

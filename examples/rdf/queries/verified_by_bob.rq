@@ -1,0 +1,1 @@
+SELECT ?claim WHERE { ?claim <http://example.org/kg/verifiedBy> <http://example.org/kg/bob> . }

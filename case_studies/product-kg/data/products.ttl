@@ -1,0 +1,2 @@
+# product-kg data/products.ttl
+SELECT * WHERE { ?s ?p ?o }

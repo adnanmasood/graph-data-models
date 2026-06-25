@@ -1,0 +1,8 @@
+{
+  "@context": {"ex": "http://example.org/kg/", "name": "ex:name", "employee": {"@id": "ex:employee", "@type": "@id"}, "employer": {"@id": "ex:employer", "@type": "@id"}},
+  "@id": "ex:claim-alice-acme-ceo",
+  "@type": "ex:EmploymentRole",
+  "employee": "ex:alice",
+  "employer": "ex:acme",
+  "ex:confidence": 0.93
+}

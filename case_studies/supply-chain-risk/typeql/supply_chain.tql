@@ -1,0 +1,2 @@
+# supply-chain-risk typeql/supply_chain.tql
+SELECT * WHERE { ?s ?p ?o }

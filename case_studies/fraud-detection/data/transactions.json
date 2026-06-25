@@ -1,0 +1,7 @@
+{
+  "example": "fraud-detection",
+  "records": [
+    "synthetic",
+    "offline"
+  ]
+}

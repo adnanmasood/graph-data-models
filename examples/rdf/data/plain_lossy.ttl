@@ -1,0 +1,7 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:alice ex:name "Alice" ; ex:ceoOf ex:acme ; ex:positionHeld ex:ceo .
+ex:acme ex:name "Acme Corp" .
+ex:ceo ex:name "CEO" .

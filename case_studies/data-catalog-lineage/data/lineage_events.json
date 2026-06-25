@@ -1,0 +1,7 @@
+{
+  "example": "data-catalog-lineage",
+  "records": [
+    "synthetic",
+    "offline"
+  ]
+}

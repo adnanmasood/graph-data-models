@@ -1,0 +1,8 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<< ex:alice ex:ceoOf ex:acme >>
+  ex:source ex:acme-2020-annual-report ;
+  ex:verifiedBy ex:bob ;
+  ex:verifiedOn "2023-04-05"^^xsd:date ;
+  ex:confidence "0.93"^^xsd:decimal .

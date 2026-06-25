@@ -1,0 +1,39 @@
+[
+  {
+    "confidence": 0.93,
+    "id": "S1",
+    "property": "position_held",
+    "qualifiers": {
+      "appointed_by": "board",
+      "employer": "acme",
+      "end_date": "2023-03-31",
+      "location": "new-york",
+      "start_date": "2020-01-01"
+    },
+    "rank": "preferred",
+    "references": [
+      "acme-2020-annual-report"
+    ],
+    "subject": "alice",
+    "value": "ceo",
+    "verification_date": "2023-04-05",
+    "verified_by": "bob"
+  },
+  {
+    "confidence": 0.41,
+    "id": "S2",
+    "property": "position_held",
+    "qualifiers": {
+      "employer": "acme",
+      "start_date": "2021-01-01"
+    },
+    "rank": "deprecated",
+    "references": [
+      "web-snippet-low-confidence"
+    ],
+    "subject": "eve",
+    "value": "ceo",
+    "verification_date": null,
+    "verified_by": null
+  }
+]

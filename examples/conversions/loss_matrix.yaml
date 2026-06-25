@@ -1,0 +1,4 @@
+- path: RDF n-ary to LPG event node
+  status: preserved
+- path: plain binary edge
+  status: lost

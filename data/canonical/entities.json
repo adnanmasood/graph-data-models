@@ -1,0 +1,78 @@
+[
+  {
+    "aliases": [
+      "Alice A."
+    ],
+    "id": "alice",
+    "name": "Alice",
+    "subject_identifiers": [
+      "http://example.org/person/alice"
+    ],
+    "type": "person"
+  },
+  {
+    "aliases": [],
+    "id": "bob",
+    "name": "Bob",
+    "subject_identifiers": [
+      "http://example.org/person/bob"
+    ],
+    "type": "person"
+  },
+  {
+    "aliases": [
+      "Acme Corporation"
+    ],
+    "id": "acme",
+    "name": "Acme Corp",
+    "subject_identifiers": [
+      "http://example.org/company/acme"
+    ],
+    "type": "company"
+  },
+  {
+    "aliases": [
+      "Chief Executive Officer"
+    ],
+    "id": "ceo",
+    "name": "CEO",
+    "subject_identifiers": [
+      "http://example.org/role/ceo"
+    ],
+    "type": "role"
+  },
+  {
+    "aliases": [
+      "Acme Board"
+    ],
+    "id": "board",
+    "name": "Board of Directors",
+    "subject_identifiers": [
+      "http://example.org/org/acme-board"
+    ],
+    "type": "organization"
+  },
+  {
+    "aliases": [
+      "NYC"
+    ],
+    "id": "new-york",
+    "name": "New York",
+    "subject_identifiers": [
+      "http://example.org/place/new-york"
+    ],
+    "type": "place"
+  },
+  {
+    "aliases": [
+      "Acme's 2020 annual report"
+    ],
+    "id": "acme-2020-annual-report",
+    "name": "Acme 2020 Annual Report",
+    "published_on": "2021-03-01",
+    "subject_identifiers": [
+      "http://example.org/doc/acme-2020-annual-report"
+    ],
+    "type": "document"
+  }
+]

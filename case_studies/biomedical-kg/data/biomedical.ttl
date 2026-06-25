@@ -1,0 +1,2 @@
+# biomedical-kg data/biomedical.ttl
+SELECT * WHERE { ?s ?p ?o }

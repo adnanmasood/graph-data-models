@@ -1,0 +1,2 @@
+[console_scripts]
+graph-model-examples = graph_model_examples.cli:app

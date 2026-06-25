@@ -1,0 +1,7 @@
+{
+  "example": "customer-360",
+  "records": [
+    "synthetic",
+    "offline"
+  ]
+}

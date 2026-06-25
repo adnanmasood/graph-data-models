@@ -1,0 +1,36 @@
+{
+  "asserted": true,
+  "confidence": 0.93,
+  "employer_id": "acme",
+  "fact_type": "source",
+  "id": "claim-alice-acme-ceo",
+  "interval": {
+    "end_date": "2023-03-31",
+    "start_date": "2020-01-01"
+  },
+  "qualifiers": [
+    {
+      "entity_id": "board",
+      "name": "appointed_by",
+      "value": "Board of Directors"
+    },
+    {
+      "entity_id": "new-york",
+      "name": "location",
+      "value": "New York"
+    }
+  ],
+  "references": [
+    {
+      "citation": "Acme 2020 Annual Report, executive leadership section",
+      "document_id": "acme-2020-annual-report"
+    }
+  ],
+  "relation": "position_held",
+  "role_id": "ceo",
+  "subject_id": "alice",
+  "verification": {
+    "verified_on": "2023-04-05",
+    "verifier_id": "bob"
+  }
+}

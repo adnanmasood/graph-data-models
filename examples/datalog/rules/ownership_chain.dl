@@ -1,0 +1,2 @@
+# ownership_chain.dl
+source_fact_or_rule("alice", "acme").

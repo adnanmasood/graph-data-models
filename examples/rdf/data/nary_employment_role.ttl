@@ -1,0 +1,21 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:claim-alice-acme-ceo a ex:EmploymentRole ;
+  ex:employee ex:alice ;
+  ex:employer ex:acme ;
+  ex:role ex:ceo ;
+  ex:startDate "2020-01-01"^^xsd:date ;
+  ex:endDate "2023-03-31"^^xsd:date ;
+  ex:source ex:acme-2020-annual-report ;
+  ex:verifiedBy ex:bob ;
+  ex:verifiedOn "2023-04-05"^^xsd:date ;
+  ex:confidence "0.93"^^xsd:decimal ;
+  ex:appointedBy ex:board ;
+  ex:location ex:new-york .
+ex:alice ex:name "Alice" .
+ex:acme ex:name "Acme Corp" .
+ex:ceo ex:name "CEO" .
+ex:bob ex:name "Bob" .
+ex:acme-2020-annual-report ex:name "Acme 2020 Annual Report" .

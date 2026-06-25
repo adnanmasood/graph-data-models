@@ -1,0 +1,2 @@
+# biomedical-kg shapes/biomedical_shapes.ttl
+SELECT * WHERE { ?s ?p ?o }

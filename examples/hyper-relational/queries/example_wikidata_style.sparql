@@ -1,0 +1,1 @@
+SELECT ?statement WHERE { ?statement <http://example.org/kg/rank> "preferred" . }

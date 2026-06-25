@@ -1,0 +1,5 @@
+{"id": "acme-2020-annual-report", "title": "Acme 2020 Annual Report", "text": "Alice served as CEO of Acme Corp beginning 2020-01-01. The board appointed Alice in New York."}
+{"id": "bob-verification-note", "title": "Bob verification note", "text": "Bob verified the Alice Acme CEO statement on 2023-04-05 with confidence 0.93."}
+{"id": "web-snippet-low-confidence", "title": "Conflicting web snippet", "text": "A low confidence web snippet claims Eve may have been CEO of Acme."}
+{"id": "board-appointment-record", "title": "Board appointment record", "text": "The Board of Directors appointed Alice as CEO in New York."}
+{"id": "supply-chain-memo", "title": "Supply chain risk memo", "text": "Supplier A ships sensor 9 through Port East with weather delay risk."}

@@ -1,0 +1,2 @@
+# biomedical-kg queries/drug_targets.rq
+SELECT * WHERE { ?s ?p ?o }

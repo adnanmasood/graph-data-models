@@ -1,0 +1,13 @@
+RDF:
+  semantic_interoperability: 5
+  provenance: 3
+  graph_rag_fit: 5
+LPG:
+  traversal_performance: 5
+  developer_ergonomics: 5
+Hypergraph:
+  n_ary_relationship_support: 5
+Datalog rule layer:
+  recursive_rules: 5
+Hybrid graph + vector:
+  graph_rag_fit: 5

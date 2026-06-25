@@ -1,0 +1,83 @@
+[
+  {
+    "answer": "Alice",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq1",
+    "question": "Who was CEO of Acme in 2021?"
+  },
+  {
+    "answer": "Acme 2020 Annual Report",
+    "evidence_ids": [
+      "acme-2020-annual-report"
+    ],
+    "id": "cq2",
+    "question": "What source supports Alice's CEO claim?"
+  },
+  {
+    "answer": "claim-alice-acme-ceo",
+    "evidence_ids": [
+      "bob"
+    ],
+    "id": "cq3",
+    "question": "Which statements were verified by Bob?"
+  },
+  {
+    "answer": "claim-alice-acme-ceo has confidence 0.93",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq4",
+    "question": "Which facts have confidence below 0.95?"
+  },
+  {
+    "answer": "Yes",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq5",
+    "question": "Was Alice CEO of Acme on 2022-06-15?"
+  },
+  {
+    "answer": "No",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq6",
+    "question": "Was Alice CEO of Acme on 2024-01-01?"
+  },
+  {
+    "answer": "appointed_by and location are qualifiers; source, verifier, and verification date are provenance",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq7",
+    "question": "Which model attributes are qualifiers vs provenance?"
+  },
+  {
+    "answer": "The Alice/Acme employment claim is a source fact; active employment on a date is derived",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq8",
+    "question": "Which facts are source facts vs derived facts?"
+  },
+  {
+    "answer": "The employment role relation connecting employee, employer, role, dates, authority, location, source, verifier, and confidence",
+    "evidence_ids": [
+      "claim-alice-acme-ceo"
+    ],
+    "id": "cq9",
+    "question": "Which relation is n-ary?"
+  },
+  {
+    "answer": "Alice, Acme Corp, CEO, valid dates, source document, Bob verification, confidence, appointment authority, and location",
+    "evidence_ids": [
+      "claim-alice-acme-ceo",
+      "acme-2020-annual-report"
+    ],
+    "id": "cq10",
+    "question": "What graph context should be retrieved for GraphRAG?"
+  }
+]

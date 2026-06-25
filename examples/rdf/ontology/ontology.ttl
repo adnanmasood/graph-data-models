@@ -1,0 +1,16 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:Person a rdfs:Class .
+ex:Company a rdfs:Class .
+ex:Role a rdfs:Class .
+ex:Document a rdfs:Class .
+ex:Claim a rdfs:Class .
+ex:EmploymentRole a rdfs:Class ; rdfs:subClassOf ex:Claim .
+ex:employee rdfs:domain ex:EmploymentRole ; rdfs:range ex:Person .
+ex:employer rdfs:domain ex:EmploymentRole ; rdfs:range ex:Company .
+ex:source rdfs:range ex:Document .

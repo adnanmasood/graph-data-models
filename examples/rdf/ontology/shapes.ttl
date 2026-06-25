@@ -1,0 +1,13 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:EmploymentRoleShape a sh:NodeShape ;
+  sh:targetClass ex:EmploymentRole ;
+  sh:property [ sh:path ex:employee ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:employer ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:role ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:startDate ; sh:minCount 1 ; sh:datatype xsd:date ] ;
+  sh:property [ sh:path ex:endDate ; sh:minCount 1 ; sh:datatype xsd:date ] ;
+  sh:property [ sh:path ex:source ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:confidence ; sh:minCount 1 ; sh:datatype xsd:decimal ; sh:minInclusive 0 ; sh:maxInclusive 1 ] .

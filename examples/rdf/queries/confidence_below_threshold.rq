@@ -1,0 +1,1 @@
+SELECT ?claim ?confidence WHERE { ?claim <http://example.org/kg/confidence> ?confidence . FILTER(?confidence < 0.95) }

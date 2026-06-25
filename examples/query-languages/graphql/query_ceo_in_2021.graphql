@@ -1,0 +1,1 @@
+{ employmentClaim(id: "claim-alice-acme-ceo") { employee { name } employer { name } confidence } }

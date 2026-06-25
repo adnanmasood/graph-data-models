@@ -1,0 +1,2 @@
+@prefix ex: <http://example.org/kg/> .
+[] ex:name "Acme Corp" .

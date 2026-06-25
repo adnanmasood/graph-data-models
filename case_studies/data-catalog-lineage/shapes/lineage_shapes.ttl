@@ -1,0 +1,2 @@
+# data-catalog-lineage shapes/lineage_shapes.ttl
+SELECT * WHERE { ?s ?p ?o }

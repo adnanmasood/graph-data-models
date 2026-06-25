@@ -1,0 +1,1 @@
+SELECT ?claim WHERE { ?claim <http://example.org/kg/startDate> ?start ; <http://example.org/kg/endDate> ?end . FILTER(?start <= "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date> && ?end >= "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date>) }

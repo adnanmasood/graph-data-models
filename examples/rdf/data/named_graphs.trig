@@ -1,0 +1,13 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:claimGraph {
+  ex:claim-alice-acme-ceo a ex:EmploymentRole ;
+    ex:employee ex:alice ; ex:employer ex:acme ; ex:role ex:ceo ;
+    ex:startDate "2020-01-01"^^xsd:date ; ex:endDate "2023-03-31"^^xsd:date .
+}
+
+ex:provenanceGraph {
+  ex:claim-alice-acme-ceo ex:source ex:acme-2020-annual-report ;
+    ex:verifiedBy ex:bob ; ex:confidence "0.93"^^xsd:decimal .
+}

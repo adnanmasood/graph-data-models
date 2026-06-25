@@ -1,0 +1,6 @@
+- id: semantic
+  prompt: Do you need semantic interoperability?
+- id: provenance
+  prompt: Do you need statement-level provenance?
+- id: graphrag
+  prompt: Do you need source-aware GraphRAG?

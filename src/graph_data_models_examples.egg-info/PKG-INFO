@@ -1,0 +1,69 @@
+Metadata-Version: 2.4
+Name: graph-data-models-examples
+Version: 0.1.0
+Summary: Runnable examples comparing RDF, LPG, hyper-relational, hypergraph, Datalog, Topic Maps, EAV, and hybrid GraphRAG modeling.
+Author: Graph Data Models Examples
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE.md
+Requires-Dist: rdflib>=7.0
+Requires-Dist: pyshacl>=0.26
+Requires-Dist: networkx>=3.2
+Requires-Dist: pydantic>=2.5
+Requires-Dist: typer>=0.12
+Requires-Dist: rich>=13.7
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Dynamic: license-file
+
+# Graph Data Models Examples
+
+This repository is a runnable companion to an article comparing graph data models: RDF, labeled property graphs, RDF-star / RDF 1.2, hyper-relational statements, hypergraphs, Datalog rule layers, Topic Maps, EAV/network ancestry, and hybrid GraphRAG architectures.
+
+The repository reuses one canonical fact throughout the examples: Alice was CEO of Acme Corp from 2020-01-01 to 2023-03-31. The source is Acme's 2020 Annual Report. Bob verified the statement on 2023-04-05. Confidence is 0.93. Alice was appointed by the Board of Directors, and the appointment happened in New York.
+
+## Quickstart
+
+```bash
+make setup
+make smoke
+make test
+make validate-rdf
+python -m graph_model_examples list-examples
+python -m graph_model_examples run alice-acme-all
+```
+
+Default examples run offline. Neo4j, TypeDB, Jena/Fuseki, and other external engines are shown only as optional integration patterns.
+
+## Command Table
+
+| Command | Purpose |
+| --- | --- |
+| `make smoke` | Print the Alice/Acme fact across the model families. |
+| `make validate-rdf` | Validate RDF examples with SHACL and show controlled inference output. |
+| `make demo-rdf` | Run RDF plain, n-ary, named graph, and reification examples. |
+| `make demo-lpg` | Run NetworkX LPG examples and analytics. |
+| `make demo-hyperrel` | Run Wikidata-style statement examples. |
+| `make demo-hypergraph` | Run in-memory hypergraph examples. |
+| `make demo-datalog` | Run deterministic Datalog-style derivations. |
+| `make demo-eav` | Run SQLite EAV and recursive CTE examples. |
+| `make demo-graphrag` | Run local graph plus vector retrieval. |
+| `python -m graph_model_examples recommend --semantic --provenance --graphrag` | Show model-selection recommendations. |
+
+## Repository Map
+
+- `data/canonical`: canonical Alice/Acme entities, claim, and expected answers.
+- `examples`: model-specific runnable examples, snippets, and expected outputs.
+- `case_studies`: business scenarios for lineage, fraud, customer 360, biomedical, supply chain, cybersecurity, policy, and product knowledge graphs.
+- `src/graph_model_examples`: Python package, CLI, example runner, and model implementations.
+- `docs`: companion documentation, comparison matrix, diagrams, and glossary.
+- `tests`: behavior-focused pytest coverage for each example family.
+
+## Model Comparison Summary
+
+RDF is strongest for semantics, standards, and interoperable identifiers. Labeled property graphs are ergonomic for traversal, operational analytics, and Cypher-style graph querying. RDF-star / RDF 1.2 and hyper-relational statements make statement metadata more compact than classic reification. Hypergraphs and event-node designs keep n-ary business meaning visible. Datalog adds recursive derived facts and rule lineage. Topic Maps emphasize subject identity. EAV/network schemas demonstrate older flexible modeling patterns and their query costs. Hybrid GraphRAG uses graph facts and local retrieval together while keeping citations and provenance explicit.
+
+GraphQL, SPARQL, Cypher, Gremlin, and GQL are treated as query or API layers, not as storage models by themselves. These examples are educational and are not vendor benchmarks.

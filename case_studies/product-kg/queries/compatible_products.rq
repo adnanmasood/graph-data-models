@@ -1,0 +1,2 @@
+# product-kg queries/compatible_products.rq
+SELECT * WHERE { ?s ?p ?o }

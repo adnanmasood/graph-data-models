@@ -1,0 +1,1 @@
+SELECT ?type WHERE { <http://example.org/kg/claim-alice-acme-ceo> a ?type . }

@@ -1,0 +1,1 @@
+WITH RECURSIVE descendants(child) AS (SELECT child FROM links WHERE parent="acme" UNION SELECT links.child FROM links JOIN descendants ON links.parent = descendants.child) SELECT child FROM descendants;

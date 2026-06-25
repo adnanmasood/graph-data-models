@@ -1,0 +1,1 @@
+MERGE (a:Person {id:"alice", name:"Alice"}) MERGE (c:Company {id:"acme", name:"Acme Corp"}) MERGE (a)-[:CEO_OF {start_date:"2020-01-01", end_date:"2023-03-31", source:"acme-2020-annual-report", verified_by:"bob", confidence:0.93}]->(c);

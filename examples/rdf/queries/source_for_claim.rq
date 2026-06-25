@@ -1,0 +1,1 @@
+SELECT ?source WHERE { <http://example.org/kg/claim-alice-acme-ceo> <http://example.org/kg/source> ?source . }

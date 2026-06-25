@@ -1,0 +1,2 @@
+# policy-entitlements rules/entitlements.dl
+SELECT * WHERE { ?s ?p ?o }

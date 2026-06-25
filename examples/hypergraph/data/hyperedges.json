@@ -1,0 +1,44 @@
+[
+  {
+    "attributes": {
+      "confidence": 0.93,
+      "end_date": "2023-03-31",
+      "start_date": "2020-01-01"
+    },
+    "id": "H1",
+    "participants": {
+      "authority": "board",
+      "employee": "alice",
+      "employer": "acme",
+      "location": "new-york",
+      "role": "ceo",
+      "source": "acme-2020-annual-report"
+    },
+    "type": "employment"
+  },
+  {
+    "attributes": {
+      "verified_on": "2023-04-05"
+    },
+    "id": "H2",
+    "participants": {
+      "verified_edge": "H1",
+      "verifier": "bob"
+    },
+    "type": "verification"
+  },
+  {
+    "attributes": {
+      "confidence": 0.82
+    },
+    "id": "H3",
+    "participants": {
+      "buyer": "acme",
+      "part": "sensor-9",
+      "risk": "weather-delay",
+      "route": "port-east",
+      "supplier": "supplier-a"
+    },
+    "type": "supply_chain_transaction"
+  }
+]

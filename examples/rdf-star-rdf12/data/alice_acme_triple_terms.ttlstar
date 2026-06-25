@@ -1,0 +1,4 @@
+@prefix ex: <http://example.org/kg/> .
+
+ex:claim-alice-acme-ceo ex:quotedTriple << ex:alice ex:ceoOf ex:acme >> ;
+  ex:source ex:acme-2020-annual-report .

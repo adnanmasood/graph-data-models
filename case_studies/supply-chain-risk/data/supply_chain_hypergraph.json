@@ -1,0 +1,7 @@
+{
+  "example": "supply-chain-risk",
+  "records": [
+    "synthetic",
+    "offline"
+  ]
+}

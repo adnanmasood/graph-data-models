@@ -1,0 +1,7 @@
+{
+  "example": "policy-entitlements",
+  "records": [
+    "synthetic",
+    "offline"
+  ]
+}

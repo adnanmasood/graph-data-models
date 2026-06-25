@@ -1,0 +1,12 @@
+type Query {
+  person(id: ID!): Person
+  company(id: ID!): Company
+  employmentClaim: EmploymentClaim!
+  provenanceForClaim: Provenance!
+  factsVerifiedBy(verifierId: ID!): [ID!]!
+}
+
+type Person { id: ID!, name: String! }
+type Company { id: ID!, name: String! }
+type EmploymentClaim { id: ID!, confidence: Float! }
+type Provenance { source: ID!, verifiedBy: ID!, confidence: Float! }

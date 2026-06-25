@@ -1,0 +1,2 @@
+model | canonical fact | modeling note
+RDF | Alice was CEO of Acme Corp from 2020-01-01 to 2023-03-31 | n-ary role node keeps source and dates

@@ -1,0 +1,1 @@
+MATCH (p:Person)-[r:CEO_OF]->(c:Company {id:"acme"}) RETURN p.name;

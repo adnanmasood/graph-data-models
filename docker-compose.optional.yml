@@ -1,0 +1,15 @@
+services:
+  neo4j:
+    image: neo4j:5
+    profiles: ["optional-neo4j"]
+    environment:
+      NEO4J_AUTH: neo4j/example-password
+    ports: ["7474:7474", "7687:7687"]
+  fuseki:
+    image: stain/jena-fuseki
+    profiles: ["optional-rdf"]
+    ports: ["3030:3030"]
+  typedb:
+    image: typedb/typedb:latest
+    profiles: ["optional-typedb"]
+    ports: ["1729:1729"]

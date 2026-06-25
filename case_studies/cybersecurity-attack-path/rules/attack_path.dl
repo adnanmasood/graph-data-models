@@ -1,0 +1,2 @@
+# cybersecurity-attack-path rules/attack_path.dl
+SELECT * WHERE { ?s ?p ?o }

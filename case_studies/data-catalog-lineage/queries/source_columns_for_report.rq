@@ -1,0 +1,2 @@
+# data-catalog-lineage queries/source_columns_for_report.rq
+SELECT * WHERE { ?s ?p ?o }

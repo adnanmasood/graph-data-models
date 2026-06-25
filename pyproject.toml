@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-data-models-examples"
+version = "0.1.0"
+description = "Runnable examples comparing RDF, LPG, hyper-relational, hypergraph, Datalog, Topic Maps, EAV, and hybrid GraphRAG modeling."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Graph Data Models Examples" }]
+dependencies = [
+  "rdflib>=7.0",
+  "pyshacl>=0.26",
+  "networkx>=3.2",
+  "pydantic>=2.5",
+  "typer>=0.12",
+  "rich>=13.7",
+  "pyyaml>=6.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+graph-model-examples = "graph_model_examples.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

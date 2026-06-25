@@ -1,0 +1,1 @@
+g.V().has('Company','id','acme').inE('CEO_OF').outV().values('name')

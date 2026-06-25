@@ -1,0 +1,35 @@
+[
+  {
+    "confidence": 0.93,
+    "entities": [
+      "alice",
+      "acme",
+      "ceo"
+    ],
+    "id": "claim-alice-acme-ceo",
+    "source": "acme-2020-annual-report",
+    "summary": "Alice CEO of Acme from 2020-01-01 to 2023-03-31"
+  },
+  {
+    "confidence": 0.93,
+    "entities": [
+      "bob",
+      "alice",
+      "acme"
+    ],
+    "id": "verification-bob",
+    "source": "bob-verification-note",
+    "summary": "Bob verified claim-alice-acme-ceo on 2023-04-05"
+  },
+  {
+    "confidence": 0.41,
+    "entities": [
+      "eve",
+      "acme",
+      "ceo"
+    ],
+    "id": "conflict-eve",
+    "source": "web-snippet-low-confidence",
+    "summary": "Conflicting low-confidence Eve CEO claim"
+  }
+]

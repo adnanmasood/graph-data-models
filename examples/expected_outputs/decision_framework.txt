@@ -1,0 +1,2 @@
+model | score | explanation
+Hybrid RDF core + LPG projection + Datalog rule layer | 17 | matches selected requirements

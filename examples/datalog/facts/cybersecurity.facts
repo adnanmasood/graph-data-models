@@ -1,0 +1,2 @@
+# cybersecurity.facts
+source_fact_or_rule("alice", "acme").

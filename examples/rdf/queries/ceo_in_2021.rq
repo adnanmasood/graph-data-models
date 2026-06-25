@@ -1,0 +1,1 @@
+SELECT ?person WHERE { ?claim <http://example.org/kg/employee> ?person ; <http://example.org/kg/employer> <http://example.org/kg/acme> . }

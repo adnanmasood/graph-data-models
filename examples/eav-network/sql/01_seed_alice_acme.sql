@@ -1,0 +1,10 @@
+INSERT INTO entities VALUES ('claim-alice-acme-ceo','claim','Alice Acme CEO claim');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','employee','alice');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','employer','acme');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','role','ceo');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','start_date','2020-01-01');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','end_date','2023-03-31');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','source','acme-2020-annual-report');
+INSERT INTO attributes VALUES ('claim-alice-acme-ceo','confidence','0.93');
+INSERT INTO links VALUES ('acme','division-a','owns');
+INSERT INTO links VALUES ('division-a','team-7','owns');
