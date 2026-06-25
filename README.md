@@ -1,6 +1,6 @@
 # Graph Data Models Examples
 
-This repository is a runnable accompanying piece for a Medium article by Dr. Adnan Masood comparing graph data models: RDF, labeled property graphs, RDF-star / RDF 1.2, hyper-relational statements, hypergraphs, Datalog rule layers, Topic Maps, EAV/network ancestry, and hybrid GraphRAG architectures.
+This repository is a runnable accompanying piece for a Medium article by Adnan Masood, PhD. comparing graph data models: RDF, labeled property graphs, RDF-star / RDF 1.2, hyper-relational statements, hypergraphs, Datalog rule layers, Topic Maps, EAV/network ancestry, and hybrid GraphRAG architectures.
 
 The repository reuses one canonical fact throughout the examples: Alice was CEO of Acme Corp from 2020-01-01 to 2023-03-31. The source is Acme's 2020 Annual Report. Bob verified the statement on 2023-04-05. Confidence is 0.93. Alice was appointed by the Board of Directors, and the appointment happened in New York.
 
